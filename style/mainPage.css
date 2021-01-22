@@ -1,0 +1,186 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+* {
+  box-sizing: border-box;
+}
+
+/* ######################################## */
+/* ########## CSS STARTS BELOW ############ */
+/* ######################################## */
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+nav {
+  padding: 5px;
+}
+nav a {
+  background-color: red;
+  padding: 5px;
+  margin: 2px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+  color: black;
+}
+
+
+
+
+/* Hideous nav buttons */
+/* .links-container {
+  display: inline-flex; 
+  border: 3px solid rgb(255, 0, 149);
+  justify-content: flex-end;
+}
+a {
+  font-family: Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: crimson;
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-flex;
+  border: 3px solid black;
+  font-size: 20px;
+  margin: 15px;
+  padding: 15px;
+} */
+
+/* name that needs to be on the left */
+/* #header-container {
+    width: 222px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid green;
+    justify-content: flex-start; */
