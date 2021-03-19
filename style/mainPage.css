@@ -1,186 +1,143 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body {
+  max-width: 900px;
+  margin: auto;
+  /* border: 2px solid crimson; */
+  color: rgb(39, 39, 39);
+}
 
 * {
-  box-sizing: border-box;
-}
-
-/* ######################################## */
-/* ########## CSS STARTS BELOW ############ */
-/* ######################################## */
-
-header {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-header h1 {
-  text-transform: uppercase;
-  font-size: 2.5rem;
-}
-nav {
-  padding: 5px;
-}
-nav a {
-  background-color: red;
-  padding: 5px;
-  margin: 2px;
+  /* border: 2px solid grey; */
+  font-family: "Roboto";
   text-decoration: none;
-  font-size: 1.5rem;
-  text-transform: lowercase;
-  color: black;
+  box-sizing: border-box;
+  background-color: lightgrey;
 }
 
-
-
-
-/* Hideous nav buttons */
-/* .links-container {
-  display: inline-flex; 
-  border: 3px solid rgb(255, 0, 149);
-  justify-content: flex-end;
-}
 a {
-  font-family: Helvetica, sans-serif;
-  color: rgb(255, 255, 255);
-  background-color: crimson;
-  display: flex;
-  flex-wrap: wrap;
-  display: inline-flex;
-  border: 3px solid black;
-  font-size: 20px;
-  margin: 15px;
-  padding: 15px;
-} */
+  color: rgb(39, 39, 39);
+}
 
-/* name that needs to be on the left */
-/* #header-container {
-    width: 222px;
+/* JUST A COMMON USED SET UP BELOW */
+/* .container {
+    
     display: flex;
     flex-wrap: wrap;
-    border: 5px solid green;
-    justify-content: flex-start; */
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 2px solid fuchsia;
+    width: 100%;
+    min-width: 300px;
+} */
+
+/* also put margins, padding, & font, etc like: */
+/* flex: 2;
+padding: 4%;
+margin-top: 5%; */
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* @@@@@ CSS STARTS BELOW @@@@@ */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* Header - wraps H1 and links*/
+
+header {
+  /*   border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  /*   border: 2px solid green; */
+  font-size: 2.5rem;
+  padding: 0.3em;
+  /* flex: 2; */
+}
+
+nav {
+  /*   border: 2px solid blue; */
+  padding: 0.55em;
+}
+
+.nav-wrapper {
+  /*   border: 3px solid fuchsia; */
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+/* nav link text */
+a {
+  margin: 0.8em;
+  font-size: 1.5rem;
+  /* border: 1px solid grey;  */
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.images {
+  max-width: 100%;
+  height: auto;
+}
+
+/* section */
+
+h2 {
+  text-align: center;
+}
+
+.section-1-container {
+  border: 2px dotted grey;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.left {
+  /*   border: 2px solid orange; */
+  flex: 2;
+  padding: 4%;
+  min-width: 300px;
+}
+.right {
+  /*   border: 2px solid teal; */
+  flex: 2;
+  padding: 4%;
+  min-width: 300px;
+}
+
+/* SECTION 2 */
+
+.section-2-container {
+  border: 2px dotted grey;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.left2 {
+  /* border: 2px solid orange; */
+  flex: 2;
+  padding: 4%;
+  min-width: 300px;
+}
+.right2 {
+  /* border: 2px solid teal; */
+  flex: 2;
+  padding: 4%;
+  min-width: 300px;
+}
+
+/*  Footer */
+
+footer {
+  /* border: 4px solid green; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem;
+}
