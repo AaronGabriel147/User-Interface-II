@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  max-width: 900px;
+  margin: auto;
+  /* border: 2px solid crimson; */
+  color: rgb(39, 39, 39);
+}
+
+* {
+  /* border: 2px solid grey; */
+  font-family: "Roboto";
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+
+a {
+  color: rgb(39, 39, 39);
+}
+
+/* JUST A COMMON USED SET UP BELOW */
+/* .container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 2px solid fuchsia;
+    width: 100%;
+    min-width: 300px;
+} */
+
+/* also put margins, padding, & font, etc like: */
+/* flex: 2;
+padding: 4%;
+margin-top: 5%; */
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* @@@@@ CSS STARTS BELOW @@@@@ */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* Header - wraps H1 and links*/
+
+header {
+  /*   border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  /*   border: 2px solid green; */
+  font-size: 2.5rem;
+  padding: 0.3em;
+  /* flex: 2; */
+}
+
+nav {
+  /*   border: 2px solid blue; */
+  padding: 0.55em;
+}
+
+.nav-wrapper {
+  /*   border: 3px solid fuchsia; */
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+/* nav link text */
+a {
+  margin: 0.8em;
+  font-size: 1.5rem;
+  /* border: 1px solid grey;  */
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.images {
+  max-width: 100%;
+  height: auto;
+}
+
+/* section */
+
+h2 {
+  text-align: center;
+}
+
+.section-1-container {
+  border: 2px dotted grey;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.left {
+  /*   border: 2px solid orange; */
+  flex: 2;
+  padding: 4%;
+  min-width: 300px;
+}
+.right {
+  /*   border: 2px solid teal; */
+  flex: 2;
+  padding: 4%;
+  min-width: 300px;
+}
+
+/* SECTION 2 */
+
+.section-2-container {
+  border: 2px dotted grey;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.left2 {
+  /* border: 2px solid orange; */
+  flex: 2;
+  padding: 4%;
+  min-width: 300px;
+}
+.right2 {
+  /* border: 2px solid teal; */
+  flex: 2;
+  padding: 4%;
+  min-width: 300px;
+}
+
+/*  Footer */
+
+footer {
+  /* border: 4px solid green; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem;
+}
