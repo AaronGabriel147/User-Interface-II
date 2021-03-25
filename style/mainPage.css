@@ -1,31 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-
-@media (min-width: 300px) {
-  body {
-    background-color: lightblue;
-  }
-}
-
- body {
+body {
   max-width: 900px;
   margin: auto;
   color: rgb(39, 39, 39);
   /* border: 2px solid crimson; */
-} 
+}
 
 * {
   /* border: 2px solid grey; */
   font-family: "Roboto";
   text-decoration: none;
   box-sizing: border-box;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
 }
 
 a {
   color: rgb(39, 39, 39);
 }
-
 
 /* JUST A COMMON USED SET UP BELOW */
 /* .container {
@@ -148,5 +140,19 @@ footer {
   display: flex;
   justify-content: space-evenly;
   margin: 3rem;
+}
+
+/* @@@@@@@@@@@@ MEDIA @@@@@@@@@@@@@@@ */
+
+@media (min-width: 400px) {
+  body {
+    background-color: rgb(190, 183, 139);
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: rgb(226, 214, 190);
+  }
 }
 
